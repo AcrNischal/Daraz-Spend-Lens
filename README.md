@@ -94,7 +94,6 @@ Licensed under the **MIT License**. Feel free to fork, modify, or contribute.
 **Nishchal Acharya**  
 Made with ❤️ to simplify shopping on Daraz.
 
-- 📍 Location: Bahradashi 3, Jhapa
 - 🌐 GitHub: [@AcrNischal](https://github.com/AcrNischal)
 
 ---
