@@ -8,7 +8,7 @@
   <a href="https://addons.mozilla.org/en-US/firefox/addon/daraz-spend-tracker/">
     <img src="https://img.shields.io/badge/Install%20on-Firefox-orange?style=for-the-badge&logo=firefox"/>
   </a>
-  <a href="https://chrome.google.com/webstore/detail/daraz-spend-tracker/iiijncdfcdchpeiphhlodlkfgkjbpjhj">
+  <a href="#chrome-installation-guide">
     <img src="https://img.shields.io/badge/Install%20on-Chrome-green?style=for-the-badge&logo=googlechrome"/>
   </a>
 </p>
@@ -30,11 +30,19 @@ This extension helps you easily track how much you’ve spent on Daraz over time
 
 ## 🛠️ Installation
 
-### 🧩 Chrome
-1. Visit [Chrome Web Store](https://chrome.google.com/webstore/detail/daraz-spend-tracker/iiijncdfcdchpeiphhlodlkfgkjbpjhj) and click **Add to Chrome**
-
 ### 🦊 Firefox
 1. Go to [Firefox Add-on Page](https://addons.mozilla.org/en-US/firefox/addon/daraz-spend-tracker/) and click **Add to Firefox**
+
+### 🧩 Chrome (Developer Mode)
+Until published on the Chrome Web Store, you can install it manually:
+
+1. Download or clone this repo
+2. Go to `chrome://extensions/` in Chrome
+3. Enable **Developer mode** (top right)
+4. Click **Load unpacked**
+5. Select the folder where you saved the extension
+
+The extension will now be visible in your Chrome toolbar 🎉
 
 ---
 
