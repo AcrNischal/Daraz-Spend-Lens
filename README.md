@@ -48,12 +48,20 @@ The extension will now be visible in your Chrome toolbar 🎉
 
 ## 📂 Project Structure
 ```
-DarazSpendTracker/
-├── manifest.json
-├── popup.html
-├── popup.js
-├── icon.png
-└── style.css
+Directory structure:
+└── acrnischal-daraz-product-spend-tracker/
+    ├── README.md
+    ├── content.js
+    ├── LICENSE
+    ├── login_detect.js
+    ├── manifest.json
+    ├── nagivate_order.js
+    ├── popup.html
+    ├── popup.js
+    ├── styles.css
+    ├── images/
+    └── screenshots/
+
 ```
 
 ---
