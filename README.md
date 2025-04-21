@@ -1,38 +1,40 @@
-# 🛍️ Daraz Product Spend Tracker
+# 🛍️ Daraz Spend Tracker
 
-**Track your purchased items from Daraz hassle-free!**
+**Easily track how much you’ve spent on Daraz so far!**
+
+---
+
+<p align="center">
+  <a href="https://addons.mozilla.org/en-US/firefox/addon/daraz-spend-tracker/">
+    <img src="https://img.shields.io/badge/Install%20on-Firefox-orange?style=for-the-badge&logo=firefox"/>
+  </a>
+  <a href="https://chrome.google.com/webstore/detail/daraz-spend-tracker/iiijncdfcdchpeiphhlodlkfgkjbpjhj">
+    <img src="https://img.shields.io/badge/Install%20on-Chrome-green?style=for-the-badge&logo=googlechrome"/>
+  </a>
+</p>
 
 ---
 
 ## 📦 About
-This is a lightweight browser extension developed by **Nishchal Acharya** that lets you track products you’ve purchased from Daraz. Just visit the Daraz product pages and the extension will display helpful status and tracking options.
-
-No more digging through your orders – it’s quick, clear, and right where you need it!
+This extension helps you easily track how much you’ve spent on Daraz over time. Just click the extension icon while on Daraz, hit **Start Scan**, and it’ll analyze your orders to calculate your total spending. Super useful if you’re trying to manage your budget or just curious where your money’s gone!
 
 ---
 
 ## 🚀 Features
-- 🧠 Automatically detects when you are on a Daraz page
-- 📦 Displays tracking options and current status
-- 🖱️ One-click product scanning
-- 👁️ Changes icon based on site for clarity
+- 📊 View total amount spent on Daraz
+- 🖱️ One-click scan to calculate order history
+- 🧠 Works only when you open it and press “Start Scan”
+- 🛍️ Helpful for budget tracking and expense awareness
 
 ---
 
 ## 🛠️ Installation
 
 ### 🧩 Chrome
-1. Download or clone this repository.
-2. Go to `chrome://extensions/`
-3. Enable **Developer Mode** (top-right toggle)
-4. Click on **Load unpacked**
-5. Select the folder containing this extension
+1. Visit [Chrome Web Store](https://chrome.google.com/webstore/detail/daraz-spend-tracker/iiijncdfcdchpeiphhlodlkfgkjbpjhj) and click **Add to Chrome**
 
 ### 🦊 Firefox
-1. Go to [Firefox Add-ons Developer Hub](https://addons.mozilla.org/en-US/developers/)
-2. Submit this ZIP file or test using **about:debugging**
-3. Select **This Firefox > Load Temporary Add-on**
-4. Select any file inside the extension directory
+1. Go to [Firefox Add-on Page](https://addons.mozilla.org/en-US/firefox/addon/daraz-spend-tracker/) and click **Add to Firefox**
 
 ---
 
@@ -48,6 +50,33 @@ DarazSpendTracker/
 
 ---
 
+## 📸 Screenshots
+<p align="center">
+  <img src="screenshots/1.png" width="400" />
+  <img src="screenshots/2.png" width="400" />
+  <br/>
+  <img src="screenshots/3.png" width="400" />
+  <img src="screenshots/4.png" width="400" />
+</p>
+
+---
+
+## ❓ FAQ
+
+### How does it work?
+It scans your order history on Daraz and calculates your total spending based on the data.
+
+### Is my data safe?
+Yes, the extension works locally in your browser and doesn’t send data anywhere.
+
+### Why does it need permission to access Daraz?
+It needs access only to scan your order history and calculate spending — nothing more.
+
+### Does it work on the mobile app?
+Nope, it only works on the **desktop website** using Chrome or Firefox.
+
+---
+
 ## 📜 License
 Licensed under the **MIT License**. Feel free to fork, modify, or contribute.
 
@@ -59,11 +88,6 @@ Made with ❤️ to simplify shopping on Daraz.
 
 - 📍 Location: Bahradashi 3, Jhapa
 - 🌐 GitHub: [@Nischal-Acharya](https://github.com/Nischal-Acharya)
-
----
-
-## 📸 Screenshots (Optional)
-_Add screenshots of the popup, icon on toolbar, or extension in action._
 
 ---
 
