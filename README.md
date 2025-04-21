@@ -5,7 +5,7 @@
 ---
 
 <p align="center">
-  <a href="https://addons.mozilla.org/en-US/firefox/addon/daraz-spend-tracker/">
+  <a href="https://addons.mozilla.org/addon/daraz-product-spend-tracker/">
     <img src="https://img.shields.io/badge/Install%20on-Firefox-orange?style=for-the-badge&logo=firefox"/>
   </a>
   <a href="#chrome-installation-guide">
@@ -33,7 +33,7 @@ This extension helps you easily track how much you’ve spent on Daraz over time
 ### 🦊 Firefox
 1. Go to [Firefox Add-on Page](https://addons.mozilla.org/addon/daraz-product-spend-tracker/) and click **Add to Firefox**
 
-### 🧩 Chrome (Developer Mode)
+### 🧩 Chrome (Developer Mode) <span id="#chrome-installation-guide"></span>
 Until published on the Chrome Web Store, you can install it manually:
 
 1. Download or clone this repo
