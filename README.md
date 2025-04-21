@@ -95,9 +95,9 @@ Licensed under the **MIT License**. Feel free to fork, modify, or contribute.
 Made with ❤️ to simplify shopping on Daraz.
 
 - 📍 Location: Bahradashi 3, Jhapa
-- 🌐 GitHub: [@Nischal-Acharya](https://github.com/Nischal-Acharya)
+- 🌐 GitHub: [@AcrNischal](https://github.com/AcrNischal)
 
 ---
 
 ## 💬 Feedback
-Found a bug? Have suggestions? [Open an issue](https://github.com/Nischal-Acharya) or reach out to me. Let’s make shopping even easier together!
+Found a bug? Have suggestions? [Open an issue](https://github.com/AcrNischal) or reach out to me. Let’s make shopping even easier together!
