@@ -1,0 +1,120 @@
+:root {
+    --primary: #FF6B35;
+    --primary-hover: #E55624;
+    --background: #f8f9fa;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 24px;
+    width: 300px;
+    background: var(--background);
+    text-align: center;
+    -webkit-font-smoothing: antialiased;
+}
+
+.container {
+    animation: fadeIn 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.logo {
+    width: 88px;
+    height: 88px;
+    object-fit: contain;
+    margin: 0 auto 20px;
+    filter: drop-shadow(0 4px 12px rgba(255, 107, 53, 0.2));
+    transition: transform 0.3s ease;
+}
+
+.logo:hover {
+    transform: scale(1.05);
+}
+
+h2 {
+    margin: 0 0 24px 0;
+    color: #2d3436;
+    font-weight: 700;
+    font-size: 1.5rem;
+    letter-spacing: -0.5px;
+}
+
+.scan-btn {
+    background: linear-gradient(135deg, var(--primary), var(--primary-hover));
+    color: white;
+    border: none;
+    padding: 16px 24px;
+    border-radius: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 4px 16px rgba(255, 107, 53, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.scan-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(255, 107, 53, 0.4);
+}
+
+.scan-btn i {
+    font-size: 1.2em;
+}
+
+.footer {
+    margin-top: 32px;
+    font-size: 0.875rem;
+    color: #636e72;
+    line-height: 1.6;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin: 20px 0;
+}
+
+.social-links a {
+    color: #2d3436;
+    transition: all 0.3s ease;
+    padding: 8px;
+    border-radius: 50%;
+    display: flex;
+}
+
+.social-links a:hover {
+    transform: translateY(-2px);
+    background: rgba(45, 52, 54, 0.05);
+}
+
+/* Not Daraz Section */
+#not-daraz-section, #login-daraz-section, #scan-section{
+    display: none;
+}
+
+.error-gif {
+    width: 160px;
+    margin: 0 auto 20px;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.error-message {
+    color: var(--primary);
+    font-weight: 600;
+    margin: 20px 0;
+    padding: 12px;
+    background: rgba(255, 107, 53, 0.1);
+    border-radius: 8px;
+}

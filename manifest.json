@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+  "name": "Daraz Product Spend Tracker",
+  "version": "2.0",
+  "description": "Easily track your previously purchased Daraz products. No confusion, no stress — just check status and know exactly where your item is. Made by Nishchal Acharya to simplify shopping.",
+  "permissions": ["tabs", "scripting", "activeTab"],
+  "host_permissions": [
+    "*://*.daraz.com/*",
+    "*://*.daraz.com.np/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/icon_16.png",
+      "48": "images/icon_48.png",
+      "128": "images/icon_128.png",
+      "500": "images/icon.png"
+    }
+  },
+  "icons": {
+    "16": "images/icon_16.png",
+    "48": "images/icon_48.png",
+    "128": "images/icon_128.png",
+    "500": "images/icon.png"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "nishchal@daraz-tracker.com",
+      "strict_min_version": "109.0"
+    }
+  }
+}
