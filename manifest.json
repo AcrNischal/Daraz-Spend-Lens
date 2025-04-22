@@ -1,12 +1,15 @@
 {
   "manifest_version": 3,
   "name": "Daraz Product Spend Tracker",
-  "version": "2.0",
+  "version": "3.0",
   "description": "Easily track your previously purchased Daraz products. No confusion, no stress — just check status and know exactly where your item is. Made by Nishchal Acharya to simplify shopping.",
   "permissions": ["tabs", "scripting", "activeTab"],
   "host_permissions": [
     "*://*.daraz.com/*",
-    "*://*.daraz.com.np/*"
+    "*://*.daraz.com.np/*",
+    "*://*.daraz.pk/*",
+    "*://*.daraz.com.bd/*",
+    "*://*.daraz.lk/*"
   ],
   "action": {
     "default_popup": "popup.html",
