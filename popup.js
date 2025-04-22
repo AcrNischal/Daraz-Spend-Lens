@@ -3,8 +3,10 @@
 function isDarazWebsite(url) {
   try {
     const hostname = new URL(url).hostname.toLowerCase();
-    return hostname.endsWith('daraz.com') || 
-           hostname.endsWith('daraz.com.np'); // Add other Daraz domains if needed
+    return hostname.endsWith("daraz.com.np") || 
+           hostname.endsWith("daraz.pk") || 
+           hostname.endsWith("daraz.com.bd") || 
+           hostname.endsWith("daraz.lk"); // Add other Daraz domains if needed
   } catch {
     return false;
   }
